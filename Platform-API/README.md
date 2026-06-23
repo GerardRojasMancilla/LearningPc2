@@ -23,3 +23,21 @@ encapsula un conjunto de objetos (Value Objects)
 
 el nombre de los archivos es con la Entidad que se busca. 
 Ejem: Student, FavoriteSource, Course (se usa lenguaje obicuo)
+
+#### Queries: 
+Siglas: Verbo + Entidad + Criterio + Query
+Ejem: Get + Entidad + Criterio + Query
+
+Read (Uno)	Get + Entidad +ByIdQuery =>	GetStudentByIdQuery.cs
+Read (Lista)	GetAll + Entidad + sQuery => GetAllStudentsQuery.cs
+Read (Filtro)	Get + Entidad + By + Criterio + Query => GetStudentByDniQuery.cs
+
+#### Repositories: 
+
+files: I + (Nombre del Aggregate) + Repository => IStudentRepository
+Método : (Accion) + Criterio + Async => FindByDniAsync
+
+
+
+
+
