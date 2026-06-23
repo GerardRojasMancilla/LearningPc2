@@ -1,4 +1,4 @@
-namespace CatchUpPlatform.API.News.Domain.Model.ValueObjects;
+namespace Platform_API.News.Domain.Model.ValueObjects;
 
 /// <summary>
 /// Represents a validated source identifier in the news domain context.
